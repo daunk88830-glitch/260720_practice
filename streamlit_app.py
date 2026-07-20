@@ -38,7 +38,7 @@ st.markdown("---")
 
 st.subheader("2. 이번 방학 목표")
 
-skill1, skill2, skill3 = st.columns(3)
+skill1, skill2, skill3, skill4 = st.columns(4)
 
 with skill1:
     st.success("웹앱 개발")
@@ -54,7 +54,8 @@ with skill3:
 
 with skill4:
     st.success("2학기 준비")
-    st.write("수업 준비", "진학 상담")
+    
+
 
 st.markdown("---")
 
