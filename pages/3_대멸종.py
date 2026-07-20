@@ -16,10 +16,12 @@ sample_df = pd.DataFrame(
 )
 
 st.subheader("1. 비교 목적")
-st.markdown("이 예시는 세 라이브러리의 차이를 느끼기 위해 같은 데이터를 다른 방식으로 그린 것입니다.  
-- matplotlib: 정적인 그래프 제작에 적합합니다.  
-- seaborn: 통계적 스타일과 가독성이 좋습니다.  
-- plotly: 인터랙티브한 확대/이동이 가능합니다.")
+st.markdown(
+    "이 예시는 세 라이브러리의 차이를 느끼기 위해 같은 데이터를 다른 방식으로 그린 것입니다.\n"
+    "- matplotlib: 정적인 그래프 제작에 적합합니다.\n"
+    "- seaborn: 통계적 스타일과 가독성이 좋습니다.\n"
+    "- plotly: 인터랙티브한 확대/이동이 가능합니다."
+)
 
 st.markdown("---")
 
@@ -91,6 +93,8 @@ with right_col:
 st.markdown("---")
 
 st.subheader("3. 결론")
-st.markdown("- matplotlib는 정적인 그래프를 만들 때 편리합니다.  
-- seaborn은 통계적 스타일을 빠르게 적용하기 좋습니다.  
-- plotly는 웹에서 인터랙티브한 비교에 유리합니다.")
+st.markdown(
+    "- matplotlib는 정적인 그래프를 만들 때 편리합니다.\n"
+    "- seaborn은 통계적 스타일을 빠르게 적용하기 좋습니다.\n"
+    "- plotly는 웹에서 인터랙티브한 비교에 유리합니다."
+)
